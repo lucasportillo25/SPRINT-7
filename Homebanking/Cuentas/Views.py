@@ -1,8 +1,5 @@
 from django.shortcuts import render
-from django.contrib.auth.decorators import login_required
 
- # Create your views here.
-
-@login_required
+# Create your views here.
 def contact(request):
-    return render(request, 'contact.html')
+    return render(request, 'cuentas.html')
