@@ -5,4 +5,4 @@ from django.contrib.auth.decorators import login_required
 
 @login_required
 def contact(resquest):
-    return render(request, 'contact.html')
+    return render(request, 'cliente.html')
